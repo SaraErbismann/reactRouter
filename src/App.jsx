@@ -6,7 +6,6 @@ function App() {
   
 
   return (
-    <>
     <div className="App">
       <nav>
         <Link to={"/"}>Home</Link>
@@ -15,7 +14,6 @@ function App() {
       </nav>
       <Outlet />
     </div>
-    </>
   )
 }
 
